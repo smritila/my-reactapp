@@ -7,6 +7,7 @@ import BookmarkIcon from "@mui/icons-material/Bookmark";
 import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
 import WorkOutlineIcon from "@mui/icons-material/WorkOutline";
 import EventIcon from "@mui/icons-material/Event";
+import StoreOutlinedIcon from "@mui/icons-material/StoreOutlined";
 export default function Sidebar() {
   return (
     <div className="sidebar">
@@ -43,6 +44,22 @@ export default function Sidebar() {
           <li className="sidebarListItem">
             <EventIcon />
             <span className="sidebarListItemText">Events</span>
+          </li>
+          <li className="sidebarListItem">
+            <StoreOutlinedIcon />
+            <span className="sidebarListItemText">Marketplace</span>
+          </li>
+        </ul>
+        <button className="sidebarButton">Show More</button>
+        <hr className="sidebarHr" />
+        <ul className="sidebarFriendList">
+          <li className="sidebarFriend">
+            <img
+              className="sidebarFriendImg"
+              src="/assets/person/person2.jpg"
+              alt=""
+            />
+            <span className="sidebarFriendName">Jane Doe</span>
           </li>
         </ul>
       </div>
