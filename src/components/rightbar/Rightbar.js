@@ -12,7 +12,7 @@ export default function rightbar() {
         <img className="rightbarAd" src="assets/ad.jpg" alt="" />
         <h4 className="rightbarTitle">Online Friends</h4>
         <ul className="rightBarFriendList">
-          <li className="rightBarFriend">
+          <li className="rightbarFriend">
             <div className="rightbarProfileImgContainer">
               <img
                 className="rightbarProfileImg"
@@ -21,6 +21,7 @@ export default function rightbar() {
               />
               <span className="rightbarOnline"></span>
             </div>
+            <span className="rightbarUsername">John Carter</span>
           </li>
         </ul>
       </div>
