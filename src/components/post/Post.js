@@ -1,7 +1,8 @@
 import "./post.css";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 
-export default function Post() {
+export default function Post({ post }) {
+  console.log(post);
   return (
     <div className="post">
       <div className="postWrapper">
@@ -14,14 +15,14 @@ export default function Post() {
             />
             <span className="postUsername">Safak Kocaoglu</span>
 
-            <span className="postDate">5 mins ago</span>
+            <span className="postDate">{post.date}</span>
           </div>
           <div className="postTopRight">
             <MoreVertIcon />
           </div>
         </div>
         <div className="postCenter">
-          <span className="postText">Hey! its my first post:)</span>
+          <span className="postText">{post?.desc}</span>
 
           <img className="postImg" src="assets/post/1.jpg" alt="" />
         </div>

@@ -24,6 +24,102 @@ export default function rightbar() {
             <span className="rightbarUsername">John Carter</span>
           </li>
         </ul>
+
+        <ul className="rightBarFriendList">
+          <li className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img
+                className="rightbarProfileImg"
+                src="assets/person/person2.jpg"
+                alt=""
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">John Carter</span>
+          </li>
+        </ul>
+
+        <ul className="rightBarFriendList">
+          <li className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img
+                className="rightbarProfileImg"
+                src="assets/person/person2.jpg"
+                alt=""
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">John Carter</span>
+          </li>
+        </ul>
+        <ul className="rightBarFriendList">
+          <li className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img
+                className="rightbarProfileImg"
+                src="assets/person/person2.jpg"
+                alt=""
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">John Carter</span>
+          </li>
+        </ul>
+
+        <ul className="rightBarFriendList">
+          <li className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img
+                className="rightbarProfileImg"
+                src="assets/person/person2.jpg"
+                alt=""
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">John Carter</span>
+          </li>
+        </ul>
+
+        <ul className="rightBarFriendList">
+          <li className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img
+                className="rightbarProfileImg"
+                src="assets/person/person2.jpg"
+                alt=""
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">John Carter</span>
+          </li>
+        </ul>
+
+        <ul className="rightBarFriendList">
+          <li className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img
+                className="rightbarProfileImg"
+                src="assets/person/person2.jpg"
+                alt=""
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">John Carter</span>
+          </li>
+        </ul>
+        <ul className="rightBarFriendList">
+          <li className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img
+                className="rightbarProfileImg"
+                src="assets/person/person2.jpg"
+                alt=""
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">John Carter</span>
+          </li>
+        </ul>
       </div>
     </div>
   );
