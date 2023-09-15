@@ -62,7 +62,7 @@ export const Posts = [
     date: "5 mins ago",
     userId: 1,
     like: 32,
-    comment: 9,
+    // comment: 9,
   },
 
   {
@@ -71,7 +71,7 @@ export const Posts = [
     date: "15 mins ago",
     userId: 2,
     like: 2,
-    comment: 34,
+    // comment: 34,
   },
 
   {
@@ -81,6 +81,6 @@ export const Posts = [
     date: "20 mins ago",
     userId: 3,
     like: 22,
-    comment: 65,
+    // comment: 65,
   },
 ];
